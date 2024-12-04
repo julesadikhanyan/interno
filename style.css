@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    font-family: "Jost", sans-serif;
+    color: #292F36;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 360px;
+}
+
+.logo__text {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.menu__list {
+    font-size: 20px;
+    display: flex;
+    column-gap: 50px;
+}
