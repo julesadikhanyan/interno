@@ -220,3 +220,10 @@
 .review__text {
     font-size: 18px;
 }
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 65px;
+}
