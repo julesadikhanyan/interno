@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .page {
     font-family: "Jost", sans-serif;
     color: #292F36;
+    font-size: 22px;
 }
 
 .header {
@@ -15,8 +17,12 @@
     padding: 45px 360px;
 }
 
-.logo__text {
+.logo, .title {
     font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
+
+.logo {
     font-size: 40px;
 }
 
@@ -28,4 +34,41 @@
     font-size: 20px;
     display: flex;
     column-gap: 50px;
+}
+
+.main__section {
+    margin: 0 360px;
+}
+
+.hero {
+    background-image: url("hero.png");
+    background-color: #F4F0EC;
+    background-size: cover;
+    min-height: 758px;
+    border-radius: 70px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 434px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.h1 {
+    font-size: 65px;
+}
+
+.button {
+    padding: 26px 48px;
+    border-radius: 18px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #292F36;
+    border: none;
 }
